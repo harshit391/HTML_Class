@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- its like a css stylesheet using style tag -->
+    <style>
+        p
+        {
+            color: black;
+        }
+    </style>
+
+    <!-- it has a high priority then css stylesheet -->
+
+</head>
+<body>
+
+    <h1>This is a heading</h1>
+    <h1 style="color: red;font-size: 50px;">This is also a heading</h1>
+    <!-- inline css have the highest priority -->
+
+
+    <p>This is para</p>
+    <p>This is also a para</p>
+
+    <span>This is a span</span>
+    <span>This is also a span</span>
+
+    <p>Span is incoming  <span>span part is gone</span> and that is span</p>
+
+    <h1>Menu</h1>
+    <ul>
+        <li class="veg">Pav Bhaji</li>
+        <li class="nonveg">Chicken</li>
+        <li class="veg">Pasta</li>
+        <li class="nonveg">Mutton</li>
+        <li class="veg">Chhole Bhature</li>
+    </ul>
+
+    <h1>Paint Shop</h1>
+    <ul>
+        <li id="red">Red</li>
+        <li id="golden">Golden</li>
+        <li id="cyan">Cyan</li>
+        <li id="brown">Brown</li>
+        <li id="navy">Navy</li>
+        <li id="yellow">Yellow</li>
+    </ul>
+
+    <!-- inline css have the highest priority of all -->
+
+    <p style="color:gold" id ="last" class="last">This para will be changed</p>
+</body>
+</html>

@@ -1,0 +1,62 @@
+*{
+    color: blue;
+}
+
+/* This is how we can use descendants */
+p span{
+    color: red;
+}
+
+.nonveg{
+    color: red;
+}
+
+.veg{
+    color: green;
+}
+
+#red{
+    color: red;
+}
+
+#golden{
+    color: goldenrod;
+}
+
+#cyan{
+    color: cyan;
+}
+
+#brown{
+    color: brown;
+}
+
+#navy{
+    color: navy;
+}
+
+#yellow{
+    color: yellow;
+}
+
+.last{
+    font-size:20px;
+}
+
+.last{
+    color: aqua;
+}
+
+.last{
+    color: chartreuse;
+}
+
+#last{
+    color: blue;
+}
+
+/* Id has high priority than class */
+.last{
+    color: aqua;
+}
+
