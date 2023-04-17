@@ -1,0 +1,108 @@
+/* ul > li
+{
+    color: red;
+} */
+
+/* Apply to immediate descendenet */
+
+/* ul > p
+{
+    color: blue;
+}
+
+ul li{
+    color: green;
+} */
+
+/* Apply to all descenedets */
+/* 
+li + li{
+    color: rgb(255, 247, 0);
+} */
+
+/* the next relative will get style */
+/* 
+p+li{
+    color: rgb(201, 20, 229);
+} */
+
+li~li{
+    color: red;
+
+}
+
+/* no matter which is the immediate sibling it aplly */
+
+a[href]
+{
+    color: blueviolet;
+}
+
+p[class]
+{
+    color: red;
+}
+
+a[href^="https"]
+{
+    color: green;
+}
+
+a[href$="in"]
+{
+    color: yellow;
+}
+
+a[href$="org"]
+{
+    color: brown;
+}
+
+a[href*="code"]
+{
+    color: salmon;
+}
+
+li:hover{
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+/* input:focus{
+    background-color: blanchedalmond;
+} */
+
+#focusstate:focus{
+    background-color: blanchedalmond;
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+button:active{
+    background-color: blue;
+}
+
+li:active{
+    color: white;
+}
+
+li:first-child{
+    color: grey;
+}
+
+li:last-child{
+    color: violet;
+}
+
+li:nth-child(2n+3)
+{
+    color: aqua;
+}
+
+
+li:nth-child(-3n+3)
+{
+    color: pink;
+}
