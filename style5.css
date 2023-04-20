@@ -1,0 +1,86 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    display: inline; 
+} */
+
+/* display inline prevent the selected height and width */
+
+
+/* span{
+    border: 2px solid red;
+    height:200px;
+    width: 200px;
+    display: block;
+} */
+
+/* making span a block */
+
+/* But to make div inline not changing height and width */
+
+/* div{
+    display: inline-block; 
+}
+
+p
+{
+    border: 2px solid black;
+    padding: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    opacity: 50%;
+    font-weight: 800;
+    text-shadow: 0px 0px 10px rgb(170, 22, 152);
+} */
+
+/* .three{
+    display: none;
+} */
+
+/* hidden will take place but opacity become 0 */
+/* display none will not take the space and will become hidden */
+
+/* .three:hover{
+    opacity: 100;
+}
+
+.mypara{
+    border: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/* textoverflow ellopses will add a three dotes at the end of para 
+so it will help to detect that there is more text after that */
+
+/* whitespace nowarp will avoid the wrap and the make the paragraph 
+overflow in a single line no matter it is fully visible or not */
+/* overflow hidden will hide the text going off screen  */
+
+/* .mypara:hover{
+    overflow: scroll;
+    text-overflow: clip;
+} */
+
+div
+{
+    height: 300px;
+    width: 700px;
+    border: 2px solid red;
+}
+
+/* static positioning is by deafault positioning */
+
+.two
+{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+/* relative positioning is position relative to its original position */
+/* but the space remain vacant and non empty */
+
+
