@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+/* @font-face{
+    font-family: waifu;
+    src:url(./fonts/Noto_Sans_JP/static/NotoSansJP-Regular.ttf)
+}
+
+
+p
+{
+    background-color: aqua;
+    width: 600px;
+    z-index: 1;
+    font-family: waifu;
+}
+
+.fontpara
+{
+    font-weight: 700;
+    background-color: chartreuse;
+    height: 50px;
+    position: relative;
+    padding: 20px;
+    top: -20px;
+    z-index: -1;
+} */
+
+
+/* works similarly like import url */
+/* just replace the @import to src: */
+
+.imagecontainer{
+    height:600px;
+    width: 600px;
+    border: 2px solid black;
+    background-image: url(./f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* all: revert; */
+
+}
+
+/* cover is image steched
+contain for max content */
+
+img 
+{
+    height: 350px;
+    width: 400px;
+    float: left;
+    
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    border: 2px solid;
+}
+
+.p3{
+    clear: both;
+}
+
+.img2{
+    float: right;
+}
