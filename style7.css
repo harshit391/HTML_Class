@@ -68,3 +68,23 @@
     align-self: stretch;
     justify-self: stretch;
 }
+
+.grid
+{
+    display: grid;
+    gap: 10px;
+    background-color: beige;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+
+/* fill add extra cells on decreasing scrren size where as fit stretches 
+the item present at realtime  */
+
+.sitem
+{
+    background-color: lime;
+    height: 40px;
+    border-radius: 50px;
+}
