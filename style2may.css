@@ -1,0 +1,33 @@
+.container
+{
+    height: 80px;
+    width: 350px;
+    border: 2px dashed blue;
+    background-color: bisque;
+    /* display: inline; */
+    /* display: flex; */
+    display: inline-flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.item
+{
+    height: 50px;
+    width: 50px;
+    /* flex-basis: 180px;
+    
+    flex-grow: 0;
+    flex-shrink: 1; */
+
+    /* flex: 180px 0 1; */
+
+    /* it signify basis grow shrink */
+
+    border: 2px dotted;
+    background-color: fuchsia;
+}
+
+/* flex basic are just only like width but not width itself
+basic gives available space to the container flex 
+in which the flex is placed*/
