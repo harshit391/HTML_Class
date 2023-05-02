@@ -1,0 +1,94 @@
+.flex-container
+{
+    background-color: bisque;
+    height: 80px;
+    border: 2px dashed;
+    display: flex;
+
+
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* space around and space evenly is very different 
+    space around give equal space to every div
+    space evenly evenly spread the divs */
+
+    /* flex-direction: column;
+    flex-direction: row; 
+    By default value is row
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+
+    /* align-items: center; */
+
+    /* flex-wrap: wrap; */
+    /* by default value is no wrap */
+
+    align-content: space-between;
+    /* align-content: space-around; */
+
+    flex-flow: row wrap;
+    
+}
+
+.item
+{
+    height: 80px;
+    width: 150px;
+    border: 2px solid blue;
+}
+
+.item1
+{
+    background-color: brown;
+    
+    flex-shrink: 2; 
+    /* 0 value will make the item stop shrinking equally */
+
+    
+    /* order: -3; */
+    /* flex-grow: 1; */
+    /* flex grow is like size priority to a particular item 
+    such that the particular item obtain more space than other
+    in a ration totalnoofitems ratio to flex grow number */
+}
+
+.item2
+{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 2; */
+    /* arrange the particular item in our choice */
+    flex-shrink: 3;
+
+    /* align-self: flex-end; */
+    /* to align the item itself only */
+}
+
+.item3
+{
+    background-color: aqua;
+    /* order: -2; */
+}
+
+.item4
+{
+    background-color: violet;
+}
+
+.item5
+{
+    background-color: orange;
+}
+
+.outer-container
+{
+    border: 2px dashed black;
+    height: 500px;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
