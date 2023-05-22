@@ -1,0 +1,70 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    margin: auto;
+    transition-property: border-radius, background-color;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: steps(4);
+}
+
+div:hover{
+    border-radius: 50%;
+    background-color: red;
+} */
+
+/* =============================================================== */
+
+
+div
+{
+    height: 70px;
+    width: 70px;
+    border: 2px solid grey;
+    margin: 10px;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+section{
+    width: 1000px;
+    border: 3px solid #888;
+    perspective: 500px;
+}
+
+div:nth-child(1){
+    background-color: blueviolet;
+    transition-timing-function: steps(4);
+}
+
+div:nth-child(2){
+    background-color: coral;
+    transition-timing-function: ease-in;
+}
+
+div:nth-child(3){
+    background-color: green;
+    transition-timing-function: ease-out;
+}
+
+div:nth-child(4){
+    background-color: blue;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* It is like after effects transition curve 
+    select the div on which cubic beizer is applied in developer tools
+    select cubic beizer in the styles option there 
+    You will now access the curve which define the transition */
+}
+
+
+/* You can go to easing.net to get pre defined cubic beizers */
+
+
+section:hover div {
+    /* margin-left: 900px; */
+    /* transform: translateZ(-900px); */
+    transform: translate3d(200px, 200px, 100px);
+}
