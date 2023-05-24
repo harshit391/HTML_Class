@@ -1,0 +1,27 @@
+/* iframe
+{
+    height: 100vh;
+    width: 100vw;
+} */
+
+html
+{
+    cursor: url(./media/a.png) 2 2 , pointer;
+} 
+
+:root{
+    --primary-color:#ee9b00;
+    --secondary-color:#f35b04;
+    --myBorder:3px dashed blue;
+}
+
+h1
+{
+    color: var(--primary-color);
+}
+
+.col
+{
+    border: 2px solid black;
+    height: 100px;
+}
